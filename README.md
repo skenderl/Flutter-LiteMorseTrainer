@@ -3,6 +3,10 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/skenderl/Flutter-LiteMorseTrainer)
 ![GitHub language count](https://img.shields.io/github/languages/count/skenderl/Flutter-LiteMorseTrainer)
 
+<a href="https://play.google.com/store/apps/details?id=com.soloduo.morse_learn">
+<img width="200"src="https://lisk.io/assets/svg/download_on_the_play_store_badge.svg">
+</a>
+
 <img src="screenshots/card.png">
 
 This is a flutter project of a simple 'Morse Code' trainer + ...
