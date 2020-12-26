@@ -12,9 +12,10 @@
 This is a flutter project of a simple 'Morse Code' trainer + ...
 
 ## 📸 Screenshots
-Screenshot1 | Screenshot2 | Screenshot3 | Screenshot4
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-<img src="screenshots/screenshot1.png" width="200"/> | <img src="screenshots/screenshot2.png" width="200"/>| <img src="screenshots/screenshot3.png" width="200"/> | <img src="screenshots/screenshot4.png" width="200"/>
+
+|                     Screenshot1                      |                     Screenshot2                      |                     Screenshot3                      |                     Screenshot4                      |
+| :--------------------------------------------------: | :--------------------------------------------------: | :--------------------------------------------------: | :--------------------------------------------------: |
+| <img src="screenshots/screenshot1.png" width="200"/> | <img src="screenshots/screenshot2.png" width="200"/> | <img src="screenshots/screenshot3.png" width="200"/> | <img src="screenshots/screenshot4.png" width="200"/> |
 
 ## 🏁 Getting Started
 
@@ -30,28 +31,33 @@ flutter
 
 Steps:
 
-```
-Clone/ Download the repository
-```
 
-And install the packages from the command line:
+1) Clone/ Download the repository
+
+2) Install the packages from the command line:
 
 ```
 flutter pub get
 ```
 
+3) And to generate, app imports and delegate run (for internationalization):
+
+```
+flutter gen-l10n --untranslated-messages-file=lib/l10n
+```
+
 ## Built With
 
-* [Flutter](https://flutter.dev/) - The mobile framework used.
-* [Audioplayers](https://github.com/luanpotter/audioplayers) - A Flutter plugin to play multiple simultaneously audio files.
-* [Vibration](https://github.com/benjamindean/flutter_vibration) - A plugin for handling Vibration API on iOS and Android devices.
-* [Share](https://github.com/flutter/plugins/tree/master/packages/share) - A Flutter plugin to share content from your Flutter app via the platform's share dialog.
-* [Shared Preferences](https://github.com/flutter/plugins/tree/master/packages/shared_preferences) - Wraps NSUserDefaults (on iOS) and SharedPreferences (on Android), providing a persistent store for simple data.
-* [Flutter Launcher Icons](https://github.com/fluttercommunity/flutter_launcher_icons) - A command-line tool which simplifies the task of updating your Flutter app's launcher icon.
+- [Flutter](https://flutter.dev/) - The mobile framework used.
+- [Audioplayers](https://github.com/luanpotter/audioplayers) - A Flutter plugin to play multiple simultaneously audio files.
+- [Vibration](https://github.com/benjamindean/flutter_vibration) - A plugin for handling Vibration API on iOS and Android devices.
+- [Share](https://github.com/flutter/plugins/tree/master/packages/share) - A Flutter plugin to share content from your Flutter app via the platform's share dialog.
+- [Shared Preferences](https://github.com/flutter/plugins/tree/master/packages/shared_preferences) - Wraps NSUserDefaults (on iOS) and SharedPreferences (on Android), providing a persistent store for simple data.
+- [Flutter Launcher Icons](https://github.com/fluttercommunity/flutter_launcher_icons) - A command-line tool which simplifies the task of updating your Flutter app's launcher icon.
 
 ## Authors
 
-* **Skender Lahdhiri** - *Initial work* - [Skenderl](https://github.com/skenderl)
+- **Skender Lahdhiri** - _Initial work_ - [Skenderl](https://github.com/skenderl)
 
 ## License
 

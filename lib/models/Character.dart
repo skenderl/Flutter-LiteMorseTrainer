@@ -1,15 +1,13 @@
-import 'package:audioplayers/audio_cache.dart';
 import 'dart:async';
+import 'package:morse_learn/common/common.dart' show AudioService;
 
 import 'package:morse_learn/utils/utils.dart';
 
 class Character {
-  AudioCache cache;
+  AudioService audioService;
   List<bool> characterList;
 
   Character(String char) {
-    cache = new AudioCache();
-    cache.loadAll(['audio/dot.mp3', 'audio/dash.mp3']);
     characterList = List<bool>();
     characterList = characters[char.toUpperCase()];
   }
@@ -24,9 +22,8 @@ class Character {
 
   playCharacter() {
     if (characterList != null) {
-      String first = characterList[0] ? "audio/dot.mp3" : "audio/dash.mp3";
       int firstWait = characterList[0] ? 300 : 500;
-      cache.play(first);
+      characterList[0] ? audioService.playDot() : audioService.playDash();
       if (characterList.length > 1) {
         Timer(Duration(milliseconds: firstWait), () {
           playDotOrDash(1, characterList.length - 1);
@@ -37,10 +34,11 @@ class Character {
 
   playDotOrDash(int current, int max) {
     if (current <= max) {
-      String now = characterList[current] ? "audio/dot.mp3" : "audio/dash.mp3";
       if (characterList[current - 1]) {
         Timer(Duration(milliseconds: 300), () {
-          cache.play(now);
+          characterList[current]
+              ? audioService.playDot()
+              : audioService.playDash();
           Timer(Duration(milliseconds: 300), () {
             if (current != max) {
               playDotOrDash(current + 1, max);
@@ -49,7 +47,9 @@ class Character {
         });
       } else if (!characterList[current - 1]) {
         Timer(Duration(milliseconds: 500), () {
-          cache.play(now);
+          characterList[current]
+              ? audioService.playDot()
+              : audioService.playDash();
           Timer(Duration(milliseconds: 300), () {
             if (current != max) {
               playDotOrDash(current + 1, max);

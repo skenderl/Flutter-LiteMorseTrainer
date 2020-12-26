@@ -1,0 +1,154 @@
+{
+  "@@locale": "en",
+  "title": "Learn Morse Code",
+  "@title": {
+    "type": "String"
+  },
+  "start": "Start",
+  "@start": {
+    "type": "String"
+  },
+  "tutorial": "Tutorial",
+  "@tutorial": {
+    "type": "String"
+  },
+  "lettersTutorial": "Letters",
+  "@lettersTutorial": {
+    "type": "String"
+  },
+  "numbersTutorial": "Numbers",
+  "@numbersTutorial": {
+    "type": "String"
+  },
+  "categoryTitle": "Select Mode:",
+  "@categoryTitle": {
+    "type": "String"
+  },
+  "easyCategory": "Easy",
+  "@easyCategory": {
+    "type": "String"
+  },
+  "mediumCategory": "Medium",
+  "@mediumCategory": {
+    "type": "String"
+  },
+  "hardCategory": "Hard",
+  "@hardCategory": {
+    "type": "String"
+  },
+  "share": "Check out our apps: {link}",
+  "@share": {
+    "type": "String",
+    "placeholders": {
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "settings": "Settings",
+  "@settings": {
+    "type": "String"
+  },
+  "silentMode": "Silent Mode",
+  "@silentMode": {
+    "type": "String"
+  },
+  "vibration": "Vibration",
+  "@vibration": {
+    "type": "String"
+  },
+  "keyboardInputTimeout": "Keyboard Input Timeout",
+  "@keyboardInputTimeout": {
+    "type": "String"
+  },
+  "keyboardInputTimeoutValue": "{value} sec",
+  "@keyboardInputTimeoutValue": {
+    "type": "String",
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "secretFnc": "Secret Function",
+  "@secretFnc": {
+    "type": "String"
+  },
+  "secretFncDesc": "Not really ...",
+  "@secretFncDesc": {
+    "type": "String"
+  },
+  "needHelp": "Need Help?",
+  "@needHelp": {
+    "type": "String"
+  },
+  "answer": "Answer: ",
+  "@answer": {
+    "type": "String"
+  },
+  "rule": "Rule {number} :",
+  "@rule": {
+    "type": "String",
+    "placeholders": {
+      "number": {}
+    }
+  },
+  "codeDecode": "Code / Decode",
+  "@codeDecode": {
+    "type": "String"
+  },
+  "txtToMorse": "String to Morse:",
+  "@txtToMorse": {
+    "type": "String"
+  },
+  "typeYourTxt": "Type your String",
+  "@typeYourTxt": {
+    "type": "String"
+  },
+  "copyMorse": "Copy Morse",
+  "@copyMorse": {
+    "type": "String"
+  },
+  "playMorse": "Play Morse",
+  "@playMorse": {
+    "type": "String"
+  },
+  "morseCodeRules": "Morse Code Rules:",
+  "@morseCodeRules": {
+    "type": "String"
+  },
+  "rule1": "The length of a dot is one unit.",
+  "@rule1": {
+    "type": "String"
+  },
+  "rule2": "A dash is three units.",
+  "@rule2": {
+    "type": "String"
+  },
+  "rule3": "The space between symbols (dots and dashes) of the same letter is one unit.",
+  "@rule3": {
+    "type": "String"
+  },
+  "rule4": "The space between letters is three units.",
+  "@rule4": {
+    "type": "String"
+  },
+  "rule5": "The space between words is seven units.",
+  "@rule5": {
+    "type": "String"
+  },
+  "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "@alphabet": {
+    "type": "String"
+  },
+  "singleKeyKeyboard": "Single Key Keyboard",
+  "@singleKeyKeyboard": {
+    "type": "String"
+  },
+  "doubleKeyKeyboard": "Double Key Keyboard",
+  "@doubleKeyKeyboard": {
+    "type": "String"
+  },
+  "systemLanguage": "System Language",
+  "@systemLanguage": {
+    "type": "String"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "@@locale": "de",
+  "title": "Lerne Morsecode",
+  "@title": {
+    "type": "String"
+  },
+  "start": "Start",
+  "@start": {
+    "type": "String"
+  },
+  "tutorial": "Lernprogramm",
+  "@tutorial": {
+    "type": "String"
+  },
+  "lettersTutorial": "Briefe",
+  "@lettersTutorial": {
+    "type": "String"
+  },
+  "numbersTutorial": "Zahlen",
+  "@numbersTutorial": {
+    "type": "String"
+  },
+  "categoryTitle": "Auswahlmodus:",
+  "@categoryTitle": {
+    "type": "String"
+  },
+  "easyCategory": "Einfach",
+  "@easyCategory": {
+    "type": "String"
+  },
+  "mediumCategory": "Mittel",
+  "@mediumCategory": {
+    "type": "String"
+  },
+  "hardCategory": "Schwer",
+  "@hardCategory": {
+    "type": "String"
+  },
+  "share": "Schauen Sie sich unsere Apps an: {link}",
+  "@share": {
+    "type": "String",
+    "placeholders": {
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "settings": "Einstellungen",
+  "@settings": {
+    "type": "String"
+  },
+  "silentMode": "Lies Modus",
+  "@silentMode": {
+    "type": "String"
+  },
+  "vibration": "Vibration",
+  "@vibration": {
+    "type": "String"
+  },
+  "keyboardInputTimeout": "Zeitlimit für Tastatureingabe",
+  "@keyboardInputTimeout": {
+    "type": "String"
+  },
+  "keyboardInputTimeoutValue": "{value} sek",
+  "@keyboardInputTimeoutValue": {
+    "type": "String",
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "secretFnc": "Geheime Funktion",
+  "@secretFnc": {
+    "type": "String"
+  },
+  "secretFncDesc": "Nicht wirklich ...",
+  "@secretFncDesc": {
+    "type": "String"
+  },
+  "needHelp": "Brauchen Sie Hilfe?",
+  "@needHelp": {
+    "type": "String"
+  },
+  "answer": "Antworten: ",
+  "@answer": {
+    "type": "String"
+  },
+  "rule": "Regel {number} :",
+  "@rule": {
+    "type": "String",
+    "placeholders": {
+      "number": {}
+    }
+  },
+  "codeDecode": "Code / Decodieren",
+  "@codeDecode": {
+    "type": "String"
+  },
+  "txtToMorse": "String zu Morse:",
+  "@txtToMorse": {
+    "type": "String"
+  },
+  "typeYourTxt": "Tippe deinen String",
+  "@typeYourTxt": {
+    "type": "String"
+  },
+  "copyMorse": "Kopieren Sie Morse",
+  "@copyMorse": {
+    "type": "String"
+  },
+  "playMorse": "Spielen Sie Morse",
+  "@playMorse": {
+    "type": "String"
+  },
+  "morseCodeRules": "Morsecode-Regeln:",
+  "@morseCodeRules": {
+    "type": "String"
+  },
+  "rule1": "Die Länge eines Punktes beträgt eine Einheit.",
+  "@rule1": {
+    "type": "String"
+  },
+  "rule2": "Ein Bindestrich besteht aus drei Einheiten.",
+  "@rule2": {
+    "type": "String"
+  },
+  "rule3": "Der Abstand zwischen Symbolen (Punkten und Strichen) desselben Buchstabens beträgt eine Einheit.",
+  "@rule3": {
+    "type": "String"
+  },
+  "rule4": "Der Abstand zwischen den Buchstaben beträgt drei Einheiten.",
+  "@rule4": {
+    "type": "String"
+  },
+  "rule5": "Der Abstand zwischen den Wörtern beträgt sieben Einheiten.",
+  "@rule5": {
+    "type": "String"
+  },
+  "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜß",
+  "@alphabet": {
+    "type": "String"
+  },
+  "singleKeyKeyboard": "Einzeltastatur",
+  "@singleKeyKeyboard": {
+    "type": "String"
+  },
+  "doubleKeyKeyboard": "Doppeltastatur",
+  "@doubleKeyKeyboard": {
+    "type": "String"
+  },
+  "systemLanguage": "Systemsprache",
+  "@systemLanguage": {
+    "type": "String"
+  }
+}
