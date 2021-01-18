@@ -9,7 +9,7 @@
 
 <img src="screenshots/card.png">
 
-This is a flutter project of a simple 'Morse Code' trainer + ...
+This is a flutter project of a simple 'Morse Code' trainer.
 
 ## 📸 Screenshots
 
