@@ -4,18 +4,18 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/skenderl/Flutter-LiteMorseTrainer)
 
 <a href="https://play.google.com/store/apps/details?id=com.soloduo.morse_learn">
-<img width="200"src="screenshots/play_store_badge.png">
+  <img width="150"src="images/play_store_badge.png">
 </a>
 
-<img src="screenshots/card.png">
+<img width="150" src="images/logo.png">
 
 This is a flutter project of a simple 'Morse Code' trainer.
 
-## 📸 Screenshots
+## 📸 images
 
 |                     Screenshot1                      |                     Screenshot2                      |                     Screenshot3                      |                     Screenshot4                      |
 | :--------------------------------------------------: | :--------------------------------------------------: | :--------------------------------------------------: | :--------------------------------------------------: |
-| <img src="screenshots/screenshot1.png" width="200"/> | <img src="screenshots/screenshot2.png" width="200"/> | <img src="screenshots/screenshot3.png" width="200"/> | <img src="screenshots/screenshot4.png" width="200"/> |
+| <img src="images/screenshot1.png" width="200"/> | <img src="images/screenshot2.png" width="200"/> | <img src="images/screenshot3.png" width="200"/> | <img src="images/screenshot4.png" width="200"/> |
 
 ## 🏁 Getting Started
 
