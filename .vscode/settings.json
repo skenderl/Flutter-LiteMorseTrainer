@@ -1,0 +1,65 @@
+{
+  "files.associations": {
+    "*.arb": "json"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "[json]": {
+    "editor.wordWrap": "on",
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "pubspec.yaml": ".packages, pubspec.lock, analysis_options.yaml, l10n.yaml, dart_dependency_validator.yaml, flutter_launcher_icons.yaml",
+    ".metadata": "lite_morse_trainer.iml, .flutter-plugins, .flutter-plugins-dependencies",
+    "README.md": "LICENSE.md"
+  },
+  "editor.cursorBlinking": "phase",
+  "terminal.explorerKind": "external",
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "type": "text-and-comment",
+      "icon": "checklist",
+      "gutterIcon": true,
+      "iconColour": "#FFA500",
+      "foreground": "#000000",
+      "background": "#FFA500",
+      "fontWeight": "bold",
+    },
+    "IMPORTANT": {
+      "type": "text-and-comment",
+      "icon": "alert",
+      "gutterIcon": true,
+      "iconColour": "#ff0000",
+      "foreground": "#ffffff",
+      "background": "#ff0000",
+      "fontWeight": "bold",
+      "textDecoration": "overline underline #ffffff 3px"
+    },
+    "LATER": {
+      "type": "text-and-comment",
+      "icon": "clock",
+      "gutterIcon": true,
+      "iconColour": "#87CEEB",
+      "foreground": "#000000",
+      "background": "#87CEEB",
+      "fontWeight": "bold",
+    },
+    "NOTE": {
+      "type": "text-and-comment",
+      "icon": "note",
+      "gutterIcon": true,
+      "iconColour": "#ffffff",
+      "foreground": "#000000",
+      "background": "#ffffff",
+      "fontWeight": "bold",
+    }
+  },
+  "todo-tree.general.tags": [
+    "TODO",
+    "IMPORTANT",
+    "LATER",
+    "NOTE"
+  ],
+}

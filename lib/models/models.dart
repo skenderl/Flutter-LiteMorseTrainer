@@ -1,3 +1,4 @@
-export './Character.dart';
-export './Word.dart';
-export './Sentence.dart';
+export "./character.dart";
+export "./word.dart";
+export "./sentence.dart";
+export "./category.dart";

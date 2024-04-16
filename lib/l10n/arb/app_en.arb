@@ -1,0 +1,162 @@
+{
+  "@@locale": "en",
+  "title": "Learn Morse Code",
+  "@title": {
+    "type": "text"
+  },
+  "start": "Start",
+  "@start": {
+    "type": "text"
+  },
+  "tutorial": "Tutorial",
+  "@tutorial": {
+    "type": "text"
+  },
+  "lettersTutorial": "Letters",
+  "@lettersTutorial": {
+    "type": "text"
+  },
+  "numbersTutorial": "Numbers",
+  "@numbersTutorial": {
+    "type": "text"
+  },
+  "categoryTitle": "Select Mode",
+  "@categoryTitle": {
+    "type": "text"
+  },
+  "easyCategory": "Easy",
+  "@easyCategory": {
+    "type": "text"
+  },
+  "mediumCategory": "Medium",
+  "@mediumCategory": {
+    "type": "text"
+  },
+  "hardCategory": "Hard",
+  "@hardCategory": {
+    "type": "text"
+  },
+  "share": "Check out our apps: {link}",
+  "@share": {
+    "type": "text",
+    "placeholders": {
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "settings": "Settings",
+  "@settings": {
+    "type": "text"
+  },
+  "sound": "Sound",
+  "@sound": {
+    "type": "text"
+  },
+  "vibration": "Vibration",
+  "@vibration": {
+    "type": "text"
+  },
+  "keyboardInputTimeout": "Keyboard Input Timeout",
+  "@keyboardInputTimeout": {
+    "type": "text"
+  },
+  "keyboardInputTimeoutValue": "{value} sec",
+  "@keyboardInputTimeoutValue": {
+    "type": "text",
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "translate": "Translate",
+  "@translate": {
+    "type": "text"
+  },
+  "textToMorse": "Text to Morse",
+  "@textToMorse": {
+    "type": "text"
+  },
+  "needHelp": "Need Help?",
+  "@needHelp": {
+    "type": "text"
+  },
+  "answer": "Answer",
+  "@answer": {
+    "type": "text"
+  },
+  "rule": "Rule {number}",
+  "@rule": {
+    "type": "text",
+    "placeholders": {
+      "number": {}
+    }
+  },
+  "codeDecode": "Code / Decode",
+  "@codeDecode": {
+    "type": "text"
+  },
+  "txtToMorse": "String to Morse",
+  "@txtToMorse": {
+    "type": "text"
+  },
+  "typeYourTxt": "Type your String",
+  "@typeYourTxt": {
+    "type": "text"
+  },
+  "copyMorse": "Copy Morse",
+  "@copyMorse": {
+    "type": "text"
+  },
+  "playMorse": "Play Morse",
+  "@playMorse": {
+    "type": "text"
+  },
+  "morseCodeRules": "Morse Code Rules",
+  "@morseCodeRules": {
+    "type": "text"
+  },
+  "rule1": "The length of a dot is one unit.",
+  "@rule1": {
+    "type": "text"
+  },
+  "rule2": "A dash is three units.",
+  "@rule2": {
+    "type": "text"
+  },
+  "rule3": "The space between symbols (dots and dashes) of the same letter is one unit.",
+  "@rule3": {
+    "type": "text"
+  },
+  "rule4": "The space between letters is three units.",
+  "@rule4": {
+    "type": "text"
+  },
+  "rule5": "The space between words is seven units.",
+  "@rule5": {
+    "type": "text"
+  },
+  "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "@alphabet": {
+    "type": "text"
+  },
+  "singleKeyKeyboard": "Single Key Keyboard",
+  "@singleKeyKeyboard": {
+    "type": "text"
+  },
+  "language": "Language",
+  "@language": {
+    "type": "text"
+  },
+  "pageNotFound": "Page Not Found!",
+  "@pageNotFound": {
+    "type": "text"
+  },
+  "goBack": "Go back",
+  "@goBack": {
+    "type": "text"
+  },
+  "error": "Error !",
+  "@error": {
+    "type": "text"
+  }
+}

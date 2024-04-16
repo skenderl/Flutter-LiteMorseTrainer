@@ -1,0 +1,6 @@
+#dart run dependency_validator
+allow_pins: true
+ignore:
+  - cupertino_icons
+  - flutter_test
+  - flutter_launcher_icons

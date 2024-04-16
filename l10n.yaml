@@ -1,4 +1,9 @@
-arb-dir: lib/l10n
+#flutter gen-l10n
+arb-dir: lib/l10n/arb
+output-dir: lib/l10n/gen
+synthetic-package: false
+nullable-getter: false
+format: true
 template-arb-file: app_en.arb
-output-localization-file: app_localizations.dart
-untranslated-messages-file: lib/l10n
+output-localization-file: app_localizations.g.dart
+untranslated-messages-file: lib/l10n/gen/untranslated-messages.g.json

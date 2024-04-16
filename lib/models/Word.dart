@@ -1,49 +1,32 @@
-import 'dart:async';
+import "dart:async";
 
-import 'package:morse_learn/models/Character.dart';
-export 'package:morse_learn/models/Character.dart';
+import "./character.dart";
+
+const kWordWaitTimeMs = 1300;
+const kWordSeperator = " ";
 
 class Word {
-  List<Character> characters;
+  Word(String word)
+      : characters = word
+            .toUpperCase()
+            .split("")
+            .map(Character.new)
+            .toList();
 
-  Word(String word) {
-    characters = List<Character>();
-    for (var i = 0; i < word.length; i++) {
-      String char = word[i].toUpperCase();
-      Character character = Character(char);
-      characters.add(character);
-    }
-  }
+  final List<Character> characters;
 
-  int get length {
-    int length = 0;
-    for (var i = 0; i < characters.length; i++) {
-      length += characters[i].length;
-    }
-    return length + 1300;
-  }
+  Future<void> play() => Future.forEach(
+        characters,
+        (character) async {
+          await character.play();
+          await Future.delayed(const Duration(milliseconds: kWordWaitTimeMs));
+        },
+      );
 
-  playWord() {
-    if (characters != null && characters.isNotEmpty) {
-      Character first = characters[0];
-      first.playCharacter();
-      if (characters.length > 1) {
-        Timer(Duration(milliseconds: first.length), () {
-          playNextCharacter(1, characters.length - 1);
-        });
-      }
-    }
-  }
-
-  playNextCharacter(int current, int max) {
-    if (current <= max) {
-      Character now = characters[current];
-      now.playCharacter();
-      Timer(Duration(milliseconds: now.length), () {
-        if (current != max) {
-          playNextCharacter(current + 1, max);
-        }
-      });
-    }
-  }
+  @override
+  String toString() => characters
+      .map(
+        (char) => char.toString(),
+      )
+      .join(kWordSeperator);
 }

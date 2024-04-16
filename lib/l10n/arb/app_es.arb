@@ -1,0 +1,162 @@
+{
+  "@@locale": "es",
+  "title": "Aprenda el código Morse",
+  "@title": {
+    "type": "text"
+  },
+  "start": "Comienzo",
+  "@start": {
+    "type": "text"
+  },
+  "tutorial": "Tutorial",
+  "@tutorial": {
+    "type": "text"
+  },
+  "lettersTutorial": "Letras",
+  "@lettersTutorial": {
+    "type": "text"
+  },
+  "numbersTutorial": "Números",
+  "@numbersTutorial": {
+    "type": "text"
+  },
+  "categoryTitle": "Seleccionar modo",
+  "@categoryTitle": {
+    "type": "text"
+  },
+  "easyCategory": "Fácil",
+  "@easyCategory": {
+    "type": "text"
+  },
+  "mediumCategory": "Medio",
+  "@mediumCategory": {
+    "type": "text"
+  },
+  "hardCategory": "Difícil",
+  "@hardCategory": {
+    "type": "text"
+  },
+  "share": "Mira nuestras aplicaciones: {link}",
+  "@share": {
+    "type": "text",
+    "placeholders": {
+      "link": {
+        "type": "String"
+      }
+    }
+  },
+  "settings": "Configuraciones",
+  "@settings": {
+    "type": "text"
+  },
+  "sound": "Sonido",
+  "@sound": {
+    "type": "text"
+  },
+  "vibration": "Vibración",
+  "@vibration": {
+    "type": "text"
+  },
+  "keyboardInputTimeout": "Tiempo de espera de entrada del teclado",
+  "@keyboardInputTimeout": {
+    "type": "text"
+  },
+  "keyboardInputTimeoutValue": "{value} seg",
+  "@keyboardInputTimeoutValue": {
+    "type": "text",
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "translate": "Traducir",
+  "@translate": {
+    "type": "text"
+  },
+  "textToMorse": "Texto a Morse",
+  "@textToMorse": {
+    "type": "text"
+  },
+  "needHelp": "¿Necesitas ayuda?",
+  "@needHelp": {
+    "type": "text"
+  },
+  "answer": "Respuesta",
+  "@answer": {
+    "type": "text"
+  },
+  "rule": "Regla {number}",
+  "@rule": {
+    "type": "text",
+    "placeholders": {
+      "number": {}
+    }
+  },
+  "codeDecode": "Codificar / Decodificar",
+  "@codeDecode": {
+    "type": "text"
+  },
+  "txtToMorse": "Stringo a Morse",
+  "@txtToMorse": {
+    "type": "text"
+  },
+  "typeYourTxt": "Escribe tu Stringo",
+  "@typeYourTxt": {
+    "type": "text"
+  },
+  "copyMorse": "Copiar Morse",
+  "@copyMorse": {
+    "type": "text"
+  },
+  "playMorse": "Jugar Morse",
+  "@playMorse": {
+    "type": "text"
+  },
+  "morseCodeRules": "Reglas del código Morse",
+  "@morseCodeRules": {
+    "type": "text"
+  },
+  "rule1": "La longitud de un punto es una unidad.",
+  "@rule1": {
+    "type": "text"
+  },
+  "rule2": "Un guión son tres unidades.",
+  "@rule2": {
+    "type": "text"
+  },
+  "rule3": "El espacio entre símbolos (puntos y guiones) de la misma letra es una unidad.",
+  "@rule3": {
+    "type": "text"
+  },
+  "rule4": "El espacio entre letras es de tres unidades.",
+  "@rule4": {
+    "type": "text"
+  },
+  "rule5": "El espacio entre palabras es de siete unidades.",
+  "@rule5": {
+    "type": "text"
+  },
+  "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZÁÉÍÓÚÜÑ",
+  "@alphabet": {
+    "type": "text"
+  },
+  "singleKeyKeyboard": "Teclado de una sola tecla",
+  "@singleKeyKeyboard": {
+    "type": "text"
+  },
+  "language": "Idioma",
+  "@language": {
+    "type": "text"
+  },
+  "pageNotFound": "¡Página no encontrada!",
+  "@pageNotFound": {
+    "type": "text"
+  },
+  "goBack": "Regresa",
+  "@goBack": {
+    "type": "text"
+  },
+  "error": "Error !",
+  "@error": {
+    "type": "text"
+  }
+}
